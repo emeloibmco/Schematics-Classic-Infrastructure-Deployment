@@ -7,10 +7,10 @@
 # Obtener la subnet de una VSI Classic Infrastructure
 ##############################################################################
 
-data "ibm_compute_vm_instance" "vm_instance" {
-  hostname    = "vsi1"
-  domain      = "IBM-PoC-Grupo-AVAL-HSM-Key-Management.cloud"
-  
-}
+#data "ibm_compute_vm_instance" "vm_instance" {
+#  hostname    = "vsi1"
+#  domain      = "IBM-PoC-Grupo-AVAL-HSM-Key-Management.cloud"
+#  
+#}
 
 
