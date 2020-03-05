@@ -11,3 +11,8 @@ resource "ibm_compute_vm_instance" "vsi2" {
   disks                      = [25]
   local_disk                 = false
 }
+data "ibm_compute_vm_instance" "vm_instance" {
+  hostname    = "vsi2"
+  domain      = "IBM-PoC-Grupo-AVAL-HSM-Key-Management.cloud"
+  
+}
