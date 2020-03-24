@@ -1,18 +1,11 @@
-resource "ibm_compute_vm_instance" "vsi2" {
-  hostname                   = "vsi2"
-  domain                     = "IBM-PoC-Grupo-AVAL-HSM-Key-Management.cloud"
-  os_reference_code          = "UBUNTU_18_64"
-  datacenter                 = "dal05"
-  network_speed              = 10
-  hourly_billing             = true
-  private_network_only       = false
-  cores                      = 1
-  memory                     = 1024
-  disks                      = [25]
-  local_disk                 = false
-}
-data "ibm_compute_vm_instance" "vm_instance" {
-  hostname    = "vsi2"
-  domain      = "IBM-PoC-Grupo-AVAL-HSM-Key-Management.cloud"
-  
+#This terraform file defines the terraform provider that will be used
+#to deploy this architecture. In this case, the IBM Cloud provider is
+#the only provider that will be used. The two variables provide the
+#means to deploy workloads. However, the APIkey and ibmid must have
+#the permissions to deploy this archiecture's resources.
+
+provider "ibm" {
+  softlayer_username = "${var.iaasusername}"
+  softlayer_api_key  = "${var.iaasapikey}"
+  region             = "${var.ibm_region}"
 }
