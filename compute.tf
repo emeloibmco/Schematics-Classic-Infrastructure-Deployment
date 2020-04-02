@@ -30,7 +30,7 @@ resource "ibm_compute_vm_instance" "compute_instances1" {
   public_vlan_id = "${var.publicvlanid}"
 }
 
-#Create multiple virtual srevers on private network
+#Create multiple virtual srevers on private network#
 
 resource "ibm_compute_vm_instance" "compute_instances2" {
   count = "${var.compute_count}"
