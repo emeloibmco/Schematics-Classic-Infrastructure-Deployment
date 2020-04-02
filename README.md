@@ -1,8 +1,9 @@
 
 # IBM Cloud infrastructure tutorial
 
-This repository contains the content for a tutorial focused on using automation and terrraform to deploy workloads to IBM Cloud. The tutorial will introduce the user to Terraform, IBM Cloud provider and use of Terraform to deploy to IBM Cloud. 
-# Requerimientos
+Este repositorio contiene el contenido de un tutorial enfocado en el uso de Schematics y terrraform para desplegar workloads en IBM Cloud. El tutorial presentará al usuario a Terraform, el proveedor de IBM Cloud y el uso de Terraform para implementar en IBM Cloud.
+
+## Requerimientos
 
 ## Architecture
 The example architecture includes compute, networks, storage, and security and use of IBM Cloud provider for Terraform. 
