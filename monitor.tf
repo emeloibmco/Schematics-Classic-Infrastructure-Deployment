@@ -6,6 +6,7 @@
 resource "ibm_compute_monitor" "tutorial_monitor" {
   count = "${var.compute_count}"
 #   guest_id = "${element(split(",", var.publicprivatevsi_id), count.index)}"
+  # guest_id = "${element(split(",", ibm_compute_vm_instance.compute_instances1.id), count.index)}"# si existen problemas comente la linea 10 y habilite la 9
     guest_id = 1#"${element(split(",", ibm_compute_vm_instance.compute_instances1.id), count.index)}"
     query_type_id = 1
     response_action_id = 1
