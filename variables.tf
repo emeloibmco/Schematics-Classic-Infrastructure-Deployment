@@ -7,11 +7,11 @@
 
 variable iaasapikey {
   description = "iaas api key"
-  default = "0b056a901c4b717d4c9a68099d46be7a2fde95f4d7371a0a46af5c862654a5bf"
+  default = " "
 }
 variable iaasusername {
   description = "iaas user name"
-  default = "2059386_javier.jimenezm@ibm.com"
+  default = " "
 }
 
 # The actual public key that will be created in IBM Cloud and
@@ -19,7 +19,7 @@ variable iaasusername {
 
 variable ssh_key {
   description = "ssh public key"
-  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDsUsqOzLNrwce1NVsLIBUvdEwsgS2bGf3dIBxYYIi0XOGZithOXF6obLVkuqOA/z6GVwVUdQRN8U1GRz5Z/f43UnCBWNd3gF2YiJSGMgLMzoNaeqGyk69ZufW2/6ylr2a"
+  default = ""
 }
 
 variable ssh_label {
@@ -38,11 +38,11 @@ variable ssh_notes {
 
 variable privatevlanid {
   description = "private VLAN"
-  default = "851"
+  default = ""
 }
 variable publicvlanid {
   description = "public VLAN"
-  default = "2538"
+  default = ""
 }
 
 #The zone and region to deploy the architecture. The tutorial uses a 
@@ -50,12 +50,12 @@ variable publicvlanid {
 
 variable availability_zone {
   description = "location to deploy"
-  default = "dal13"
+  default = ""#ejemplo "dal13"
 }
 
 variable ibm_region {
   description = "IBM Cloud region"
-  default = "us-south"
+  default = "" #ejemplo "us-south"
 }
 
 # The specific virtual server configuration items
