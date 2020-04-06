@@ -31,4 +31,15 @@ Los scripts para este tutorial implementan un patrón básico de máquinas virtu
 
 ## Despliegue en IBM CLOUD
 
+1. Copie el link o URL del respositorio donde se encuentran los archivos .tf que quiere desplegar en IBM CLOUD.
+2. Entre con su cuenta a IBM CLOUD, navegue en el catalogo e ingrese a SCHEMATICS.
+3. Una vez se encuentre dentro de Schematics, presione en el boton "create a workspace", se le redigirá a una página como se muestra en la siguiente imagen.
+
+
+
+4. Llene los datos que se le solicitan, y seleccione el grupo de recursos donde desea realizar el despliegue de la infraestructura. Pegue la URL del repositorio donde se encuentran los archivos .tf y de click en el boton recuperar variables de entrada.
+
+5. Nuevamente llene los datos solicitados. 
+Consejo: si requiere de mayor privacidad para aquellos datos que sean sensibles, puede marcar la casilla "confidencial". 
+6. Pulse el botón "Crear".
 
