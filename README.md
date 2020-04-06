@@ -28,7 +28,7 @@ La arquitectura de ejemplo incluye computación, redes, almacenamiento y segurid
 2. Entre con su cuenta a IBM CLOUD, navegue en el catalogo e ingrese a Schematics.
 3. Una vez se encuentre dentro de Schematics, presione en el boton "create a workspace", se le redigirá a una página como se muestra en la siguiente imagen.
 
-https://github.com/emeloibmco/Schematics-Classic-Infrastructure-Deployment/blob/master/imagen1.png
+(https://github.com/emeloibmco/Schematics-Classic-Infrastructure-Deployment/blob/master/imagen1.png)
 
 4. Llene los datos que se le solicitan, y seleccione el grupo de recursos donde desea realizar el despliegue de la infraestructura. Pegue la URL del repositorio donde se encuentran los archivos .tf y de click en el boton recuperar variables de entrada.
 
