@@ -21,18 +21,11 @@ La arquitectura de ejemplo incluye computación, redes, almacenamiento y segurid
 
 ![Reference architecture](https://github.com/ibm-cloud-architecture/refarch-public-iaas-tutorial/blob/master/imgs/labarch.png)
 
-## Contenido
-
-Los scripts para este tutorial implementan un patrón básico de máquinas virtuales como instancias multi-tenant y permiten aumentar el número de servidores virtuales en el momento de la implementación.
-
-- [Tutorial document](https://github.com/ibm-cloud-architecture/refarch-public-iaas-tutorial/tree/master/tutorial_doc)
-
-- [Terraform Code](https://github.com/ibm-cloud-architecture/refarch-public-iaas-tutorial/tree/master/terraform)
 
 ## Despliegue en IBM CLOUD
 
 1. Copie el link o URL del respositorio donde se encuentran los archivos .tf que quiere desplegar en IBM CLOUD.
-2. Entre con su cuenta a IBM CLOUD, navegue en el catalogo e ingrese a SCHEMATICS.
+2. Entre con su cuenta a IBM CLOUD, navegue en el catalogo e ingrese a Schematics.
 3. Una vez se encuentre dentro de Schematics, presione en el boton "create a workspace", se le redigirá a una página como se muestra en la siguiente imagen.
 
 
@@ -42,4 +35,14 @@ Los scripts para este tutorial implementan un patrón básico de máquinas virtu
 5. Nuevamente llene los datos solicitados. 
 Consejo: si requiere de mayor privacidad para aquellos datos que sean sensibles, puede marcar la casilla "confidencial". 
 6. Pulse el botón "Crear".
+7. Navegue a Schematics e ingrese al Workspace creado.
+8. Cuando se encentre dentro del Workspace pulse el bóton "generar plan".
+9. Una vez se haya generado el plan, pulse el bóton "aplicar plan."
 
+## Links de apoyo
+
+Los scripts para este tutorial implementan un patrón básico de máquinas virtuales como instancias multi-tenant y permiten aumentar el número de servidores virtuales en el momento de la implementación.
+
+- [Tutorial document](https://github.com/ibm-cloud-architecture/refarch-public-iaas-tutorial/tree/master/tutorial_doc)
+
+- [Terraform Code](https://github.com/ibm-cloud-architecture/refarch-public-iaas-tutorial/tree/master/terraform)
