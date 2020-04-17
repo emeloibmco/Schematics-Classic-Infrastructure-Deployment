@@ -42,7 +42,7 @@ Consejo: si requiere de mayor privacidad para aquellos datos que sean sensibles,
 ## Links de apoyo
 
 Los scripts para este tutorial implementan un patrón básico de máquinas virtuales como instancias multi-tenant y permiten aumentar el número de servidores virtuales en el momento de la implementación.
-- [Tutorial] (https://www.ibm.com/cloud/architecture/tutorials/public-cloud-infrastructure?task=5)
+- [Tutorial](https://www.ibm.com/cloud/architecture/tutorials/public-cloud-infrastructure?task=5)
 - [Tutorial document](https://github.com/ibm-cloud-architecture/refarch-public-iaas-tutorial/tree/master/tutorial_doc)
 
 - [Terraform Code](https://github.com/ibm-cloud-architecture/refarch-public-iaas-tutorial/tree/master/terraform)
